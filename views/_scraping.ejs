@@ -1,0 +1,19 @@
+<h1 class="m-5"><span class="fs-4">👉</span> Let's scrap</h1>
+<form action="/scraping" method="POST">
+    <div class="input-group mb-3">
+        <span class="input-group-text">Emoji</span>
+        <input required type="text" name="emoji" id="emoji" class="form-control" aria-label="Emoji">
+        <span class="input-group-text">Folder</span>
+        <input required type="text" name="folder" id="folder" class="form-control" aria-label="Folder">
+    </div>
+    <div class="row text-light ms-3">
+        <div class="col-5">
+            Please provide the actual emoji character, and not its unicode.
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+            Name the folder in which the emojis will be saved. This name will also be the one that will appear in the menu.
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Scrap it !</button>
+</form>
